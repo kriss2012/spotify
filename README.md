@@ -5,7 +5,7 @@
 Version 2.0 - Professional Spotify-Like Music Player
 All Features Working • Fast Performance • Beautiful Design
 
-Open The App And Create file In Internal Storage Named Music1 and add Your liked songs And Run The App 
+Open The App And Create file In Internal Storage Named Music1 and add Your liked songs And Run The App  
 
 
 ═══════════════════════════════════════════════════════════════════════════════
