@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large binary audio cache / apk
+*.apk
+*.mp3
+*.wav
+*.flac
+*.ogg
+songs/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/

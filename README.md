@@ -1,3 +1,15 @@
+# Spotify - Modern Desktop Music Player
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-brightgreen.svg)](https://python.org)
+[![UI: CustomTkinter / Tkinter](https://img.shields.io/badge/UI-Tkinter-purple.svg)](https://github.com/kriss2012/spotify)
+[![Audio: Pygame](https://img.shields.io/badge/Audio-Pygame-red.svg)](https://www.pygame.org)
+[![Security: Monitored](https://img.shields.io/badge/Security-Monitored-green.svg)](SECURITY.md)
+
+A sleek, feature-rich desktop music player built in Python, inspired by Spotify's dark aesthetic. Features full audio playback controls, album art visualization, metadata parsing, playlist management, and responsive volume/progress tracking.
+
+---
+
 ═══════════════════════════════════════════════════════════════════════════════
 🎵 MusicFlow PRO - COMPLETE SETUP & USAGE GUIDE
 ═══════════════════════════════════════════════════════════════════════════════
@@ -392,3 +404,32 @@ Features: ✨ Complete
 
 🎵 Enjoy your music! 🎧
 ═══════════════════════════════════════════════════════════════════════════════
+
+---
+
+## Architecture Overview
+
+```mermaid
+flowchart TD
+    UI[Custom Tkinter GUI] --> Controller[Music Player Controller]
+    Controller --> Engine[Pygame Audio Engine]
+    Controller --> Meta[Mutagen Metadata Parser]
+    Controller --> Art[Pillow Album Art Handler]
+    Engine --> Audio[System Audio Output]
+```
+
+## Security
+
+Please refer to [SECURITY.md](SECURITY.md) for vulnerability reporting guidelines.
+
+## Contributing
+
+Contributions are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md) for details on code standards and pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Developed and maintained by **[Krishna Patil](https://github.com/kriss2012)**.
